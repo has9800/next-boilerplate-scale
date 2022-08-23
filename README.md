@@ -6,7 +6,7 @@ This is a boilerplate template for scalable Next-JS projects with configurations
 - **Storybook**
 - **Custom Storybook configs specificlly for Next-JS**
 - **Sass**
-- **Typescript support**
+- **Typescript**
 - **Engine and NPM version locking**
 - **Authentication** ***[soon]***
 - and much more...
