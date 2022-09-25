@@ -3,6 +3,7 @@
 This is a boilerplate template for scalable Next-JS projects with configurations for manageable workflows and developer productivity. The configuration setup includes tools such as:
 
 - **Husky:** pre-commit git hooks
+- **GitHub Actions:** run tests for PRs and merges (CI)
 - **Commit-lint:** consistent git commit format enforcing
 - **Custom Vscode configs**
 - **Storybook**
