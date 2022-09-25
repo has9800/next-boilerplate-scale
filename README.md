@@ -13,6 +13,8 @@ This is a boilerplate template for scalable Next-JS projects with configurations
 - **Bulk component exports**
 - **Custom Hooks**
 - **Typescript**
+- **React Testing Library** - [Unit testing]
+- **Playwright** - [End-to-end testing]
 - **Engine and NPM version locking**
 - **Authentication** **_[soon]_**
 - and much more...
@@ -27,9 +29,14 @@ Optionally, you can opt to remove React Context and drop in Redux or any other s
 |- Husky      [pre-commit configs]
 |- Vscode     [vscode configs]
 |
+| - __mocks__
+| - __test__
 |
 |- Storybook
 |- Stories
+|
+| - context
+| - custom_hooks
 |
 |- Components
 |- Lib
