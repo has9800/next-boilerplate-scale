@@ -1,0 +1,14 @@
+@use '@/styles/utils/variables' as v;
+
+.eg {
+  margin: 0 auto;
+  padding: 1px;
+  background-color: v.$example-color;
+  border-radius: 5px;
+  width: 40vw;
+  text-align: center;
+}
+
+.h1 {
+  color: #eee;
+}

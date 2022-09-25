@@ -1,6 +1,8 @@
 # Next-JS boilerplate
+
 This is a boilerplate template for scalable Next-JS projects with configurations for manageable workflows and developer productivity. The configuration setup includes tools such as:
-- **Husky:** pre-commit git hooks 
+
+- **Husky:** pre-commit git hooks
 - **Commit-lint:** consistent git commit format enforcing
 - **Custom Vscode configs**
 - **Storybook**
@@ -8,12 +10,16 @@ This is a boilerplate template for scalable Next-JS projects with configurations
 - **Sass**
 - **Typescript**
 - **Engine and NPM version locking**
-- **Authentication** ***[soon]***
+- **Authentication** **_[soon]_**
+- **Import aliases\***
+- **React Context\***
+- **Bulk component exports\***
+- \*\*Custom Hooks\*\*
 - and much more...
 
-
 ### Directory structure
-``` bash
+
+```bash
 |
 |
 |- Husky      [pre-commit configs]
@@ -38,6 +44,7 @@ This is a boilerplate template for scalable Next-JS projects with configurations
 ```
 
 ### Commit formats
+
 - **build:** Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
 - **ci:** Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
 - **docs:** Documentation only changes
@@ -48,9 +55,8 @@ This is a boilerplate template for scalable Next-JS projects with configurations
 - **style:** Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
 - **test:** Adding missing tests or correcting existing tests
 
-
-
 ### Steps:
+
 First, install node_modules and dependencies:
 
 ```bash
@@ -59,8 +65,8 @@ npm install
 yarn add
 ```
 
-
 Second, run the dev server
+
 ```bash
 npm run dev
 # or
