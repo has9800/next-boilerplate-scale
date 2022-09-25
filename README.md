@@ -8,14 +8,16 @@ This is a boilerplate template for scalable Next-JS projects with configurations
 - **Storybook**
 - **Custom Storybook configs specificlly for Next-JS**
 - **Sass**
+- **Import aliases**
+- **React Context**
+- **Bulk component exports**
+- **Custom Hooks**
 - **Typescript**
 - **Engine and NPM version locking**
 - **Authentication** **_[soon]_**
-- **Import aliases\***
-- **React Context\***
-- **Bulk component exports\***
-- \*\*Custom Hooks\*\*
 - and much more...
+
+Optionally, you can opt to remove React Context and drop in Redux or any other state mgmt library, add Axios or GraphQL, Tailwind etc, and you would have a production ready NextJS app that can easily scale, and easy to work on by many developers. This is just a highly opinionated setup for my ideal workflow.
 
 ### Directory structure
 
