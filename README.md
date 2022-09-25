@@ -20,7 +20,7 @@ This is a boilerplate template for scalable Next-JS projects with configurations
 - **Authentication** **_[soon]_**
 - and much more...
 
-Optionally, you can opt to remove React Context and drop in Redux or any other state mgmt library, add Axios or GraphQL, Tailwind etc, and you would have a production ready NextJS app that can easily scale, and easy to work on by many developers. This is just a highly opinionated setup for my ideal workflow.
+Optionally, you can opt to remove React Context and drop in Redux or any other state management library, add Axios or GraphQL, Tailwind, Cypress instead of Playwright, etc, and you would have a production ready NextJS app that can easily scale, and easy to work on by many developers. This is just a highly opinionated setup for my ideal workflow.
 
 ### Directory structure
 
