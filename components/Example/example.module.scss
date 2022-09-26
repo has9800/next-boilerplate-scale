@@ -2,13 +2,17 @@
 
 .eg {
   margin: 0 auto;
-  padding: 1px;
+  padding: 10px;
   background-color: v.$example-color;
   border-radius: 5px;
   width: 40vw;
   text-align: center;
+  color: v.$example-text-color;
 }
 
-.h1 {
-  color: #eee;
+.btn {
+  padding: 5px;
+  width: 200px;
+  margin: 5px;
+  cursor: pointer;
 }

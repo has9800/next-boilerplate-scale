@@ -5,6 +5,8 @@ This is a boilerplate template for scalable Next-JS projects with configurations
 - **Husky:** pre-commit git hooks
 - **Commit-lint:** consistent git commit format enforcing
 - **Custom Vscode configs**
+- **Sentry production monitoring**
+- **SWR for data fetching, caching, and revalidation**
 - **Storybook**
 - **Custom Storybook configs specificlly for Next-JS**
 - **Sass**
