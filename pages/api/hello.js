@@ -1,5 +1,17 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+import { withSentry } from '@sentry/nextjs';
+import axios from 'axios';
 
-export default function handler(req, res) {
-  res.status(200).json({ name: 'John Doe' })
+async function handler(req, res) {
+  if (req.method === 'GET') {
+    await axios
+      .get('https://jsonplaceholder.typicode.com/users?id=1')
+      .then(({ data }) => {
+        res.status(200).json({ data });
+      })
+      .catch(({ err }) => {
+        res.status(400).json({ err });
+      });
+  }
 }
+
+export default withSentry(handler);
