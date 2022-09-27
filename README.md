@@ -3,10 +3,10 @@
 This is a boilerplate template for scalable Next-JS projects with configurations for manageable workflows and developer productivity. The configuration setup includes tools such as:
 
 - **Husky:** pre-commit git hooks
+- **Sentry for frontend monitoring**
 - **GitHub Actions:** run tests for PRs and merges (CI)
 - **Commit-lint:** consistent git commit format enforcing
 - **Custom Vscode configs**
-- **Sentry production monitoring**
 - **SWR for data fetching, caching, and revalidation**
 - **Storybook**
 - **Custom Storybook configs specificlly for Next-JS**
@@ -22,7 +22,7 @@ This is a boilerplate template for scalable Next-JS projects with configurations
 - **Authentication** **_[soon]_**
 - and much more...
 
-Optionally, you can opt to remove React Context and drop in Redux or any other state management library, add Axios or GraphQL, Tailwind, Cypress instead of Playwright, etc, and you would have a production ready NextJS app that can easily scale, and easy to work on by many developers. This is just a highly opinionated setup for my ideal workflow.
+Optionally, you can opt to remove React Context and drop in Redux or any other state management library, switch Axios to GraphQL, add Tailwind, Cypress instead of Playwright, React Query instead of SWR etc, and you would have a production ready NextJS app that can easily scale, and easy to work on by many developers. This is just a highly opinionated setup for my ideal workflow.
 
 ### Directory structure
 
