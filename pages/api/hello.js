@@ -1,10 +1,16 @@
 import { withSentry } from '@sentry/nextjs';
+import axios from 'axios';
 
-function handler(req, res) {
-  switch (req.method) {
-    case 'GET':
-      res.status(200).json({ name: 'Data fetched frm endpoint using SWR' });
-      break;
+async function handler(req, res) {
+  if (req.method === 'GET') {
+    await axios
+      .get('https://jsonplaceholder.typicode.com/users?id=1')
+      .then(({ data }) => {
+        res.status(200).json({ data });
+      })
+      .catch(({ err }) => {
+        res.status(400).json({ err });
+      });
   }
 }
 

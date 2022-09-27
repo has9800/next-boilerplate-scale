@@ -4,6 +4,7 @@ import styles from './example.module.scss';
 
 const Example = () => {
   const fetcher = (...args) => fetch(...args).then((res) => res.json());
+
   const { data, error, loading } = useSWR('/api/hello', fetcher);
 
   const { foo } = useExampleContext();
@@ -15,7 +16,6 @@ const Example = () => {
   return (
     <div className={styles.eg}>
       <h1 className={styles.h1}>Example component</h1>
-      <p>{data.name}</p>
       <p>{foo}</p>
       <button
         className={styles.btn}
