@@ -1,6 +1,6 @@
 # Next-JS boilerplate
 
-This is a boilerplate template for scalable Next-JS projects with configurations for manageable workflows and developer productivity. The configuration setup includes tools such as:
+This is a setup and an example of how I write code using React/Next.js. From things such as testing, custom hooks, state mgmt, and more. It's a boilerplate template for a scalable Next-JS project with configurations for manageable workflows and productivity. The configuration setup includes tools such as:
 
 - **Husky:** pre-commit git hooks
 - **Sentry for frontend monitoring**
